@@ -1,12 +1,16 @@
 # KBC game
 print("Welcome to the KBC game")
+print("The amount you will be awarded for the correct answers of respective qn no. is listed below: ")
 prize={
     "For Question no":"Prize",
     "1": "Rs.1000",
     "2": "Rs.2000",
     "3": "Rs.4000"
 }
-print(prize)
+for key,value in prize.items():
+    print(key,":",value)
+
+
 amount=0   
 questions=["What is the capital city of Nepal?","Who is the current PM of nepal?","2+2=??"]
 
@@ -60,4 +64,5 @@ for i in range(len(questions)):
      
 print("You have won rs.",amount);
 print("Thank you")     
+
 
