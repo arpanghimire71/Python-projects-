@@ -30,13 +30,15 @@ print("Total words in this sentence:",words)
 print("TYPE:",data)
 
 start_time=None
+print("Enter your typed text:",end=" ")
 while True:
     event=keyboard.read_event()
     if event.event_type==keyboard.KEY_DOWN:
         if start_time==None:
             start_time=time.time()
-
-your_type=input("Enter your typed text:")
+            
+            break
+your_type=input()
 end_time=time.time()
 elapsed_time=(end_time-start_time)/60
 
