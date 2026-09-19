@@ -5,7 +5,9 @@ print(" Welcome to hangman game!")
 print()
 print("You have only 6 attempts to guess the word!")
 
-list=["programming","python","hello","development","web","editor","program","welcome","intern","teacher","college","computer","hangman","game","banana"]
+list=["programming","python","hello","development","web","editor",
+      "program","welcome","intern","teacher","college","computer","hangman","game","banana",
+      "Joshan","Arpan","campus","cyber","security","hacking","ethics"]
 
 value=random.choice(list)
 guessed=[]

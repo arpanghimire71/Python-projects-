@@ -37,7 +37,7 @@ for i in range(len(questions)):
         print("a.KP oli",end='  ')
         print("b.Sherbahadur Deuba",end='\n')
         print("c.Puspakamal Dahal",end=' ')
-        print("d.Sushila Karki",end='\n')
+        print("d.Balen Shah",end='\n')
         yourans=input("Your answer is option no ??a/b/c/d:")
         yourans=yourans.lower()
         
