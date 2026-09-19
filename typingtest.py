@@ -14,13 +14,21 @@ data=[
     "Time waits for no one, so type faster today "
 ]
 data=random.choice(data)
-print(data)
 words=data.split()
 words=len(words)
-print(words)
-print(len(data))
+
+
 char=0
 for i in data:
     if i.isalpha():
         char=char+1
-print(char)        
+error=0
+print("Total characters in this sentences:",char)
+print("Total words in this sentence:",words)
+print("TYPE:",data)
+your_type=input("Enter your typed text:")
+for i,j in zip(data,your_type):
+    if i!=j:
+        error=error+1
+correct_text=len(data)-error
+        
